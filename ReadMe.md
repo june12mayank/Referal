@@ -1,3 +1,10 @@
+#WEBSITE for Referral Posting
+Referal=Project
+Referral=Application
+
+Begin from PArt 3
+
+
 Views:
 DashBoard as Main PAge. --> Job Id=x Page
 
@@ -9,10 +16,11 @@ Apply Job Function.
 
 Models:
 Job[
-    Jobid (num/hash),
+    company,
     Post Heading,
     Job Description,
-    Post Date.
+    Post Date,
+    person(ForeignKey)
 ],
 
 Person[
